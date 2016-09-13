@@ -250,7 +250,7 @@ ul {
 }
 
 .w-33 {
-    width: 33.33%
+    width: 25%
 }
 
 .w-30 {
@@ -1581,7 +1581,7 @@ body:not(.mobile) .gallery .photo:not(.expanded):hover:before {
     /*padding: 15px;*/
     margin: 0 auto;
     border-radius: 50%;
-    border: 2px solid #1b365a;
+    border: 1px solid #000;
     position: relative
 }
 
@@ -5564,4 +5564,10 @@ article .gallery {
 
 .icon[class*="food"]:before {
     background-position: 75% 50%
+}
+.radius-photo {
+    background-size: cover;
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
 }
